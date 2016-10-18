@@ -143,7 +143,7 @@ if __name__ == "__main__":
     form.show()
     view_paint = PaintedWidget()
     view_paint.move(width,height+500)
-    view_paint.setWindowTitle(_translate("", "ここに数字を書く", None))
+    view_paint.setWindowTitle(_translate("", "①数字を書く", None))
     view_paint.setFixedSize(QSize(360,360))
     view_result = QWidget()
     view_result.move(width+360,height+500)
