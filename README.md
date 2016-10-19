@@ -8,6 +8,7 @@ GPU:標準Intel HD Graphics 5500
 メモリ:8GB
 言語:Python 2.7.12
 
+以下のようにコマンドを実行して、必要なライブラリを取得する
 sudo apt-get install libopencv-dev
 sudo apt-get install python-opencv
 sudo apt-get install python-scipy
