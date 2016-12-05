@@ -24,8 +24,6 @@ import mnist_recognizer
 
 from widget_painted import *
 from PyQt4 import QtCore, QtGui
-from PyQt4.QtCore import *
-from PyQt4.QtGui import *
 from scipy import ndimage
 
 try:
@@ -67,9 +65,6 @@ class MainWindow(QtGui.QMainWindow, deep_mnist.Ui_MainWindow):
     def paint_image(self):
         self.textEdit.append("open paint window...")
         view_paint.show()
-
-        # TODO:Input画像(28*28)を表示
-        # view_result.show()
 
     def saved(self):
         self.textEdit.append("saving...")
