@@ -20,8 +20,6 @@ from PIL import Image
 import numpy as np
 import cv2
 
-import pdb
-
 sess = tf.InteractiveSession()
 
 x = tf.placeholder(tf.float32,[None,784])
