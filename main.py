@@ -66,9 +66,6 @@ class MainWindow(QtGui.QMainWindow, deep_mnist.Ui_MainWindow):
         self.textEdit.append("open paint window...")
         view_paint.show()
 
-        # TODO:Input画像(28*28)を表示
-        # view_result.show()
-
     def saved(self):
         self.textEdit.append("saving...")
 

@@ -1,3 +1,4 @@
+![DeepMnistGuiApp](https://github.com/jintaka1989/DeepMnistGuiApp/blob/master/result.gif)
 
 TensorFlowのチュートリアル(Deep MNIST for Experts)を自分の書いた数字で試すGUIアプリケーション
 

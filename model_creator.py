@@ -94,6 +94,6 @@ for i in range(20000):
 print "test accuracy %g"%accuracy.eval(feed_dict={
 	x: mnist.test.images, y_: mnist.test.labels, keep_prob: 1.0})
 
-saver.save(sess, "double_layer_model.ckpt")
+saver.save(sess, "model.ckpt")
 
 sess.close()

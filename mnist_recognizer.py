@@ -81,7 +81,7 @@ sess.run(tf.initialize_all_variables())
 
 saver = tf.train.Saver()
 
-saver.restore(sess, "double_layer_model.ckpt")
+saver.restore(sess, "model.ckpt")
 
 def mnist_recognizer(image):
 	image = 1.0 - np.asarray(image, dtype="float32") / 255
